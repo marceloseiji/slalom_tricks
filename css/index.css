@@ -1,0 +1,179 @@
+body {
+    background-color: #222;
+}
+
+/* navbar */
+.navbar {
+    border-bottom: solid 1px #F06066;
+}
+
+.navbar-dark .navbar-brand {
+    color: #34DDDD;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #34DDDD;
+}
+
+/* banner */
+
+#carouselBanner {
+    border-bottom: solid 1px #F06066;
+}
+
+/* div textos */
+.textosClasseA {
+    padding: 20px;
+    max-width: 1100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .textosClasseA p1 {
+    color: #34DDDD;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+  
+  .textosClasseA p2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    bottom: -20px;
+    right: 120px;
+  }
+  
+  .textosClasseA h2 {
+    color: #F06066;
+    margin-bottom: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+  }
+
+  .textosClasseB {
+    padding: 20px;
+    max-width: 1100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .textosClasseB p1 {
+    color: #34DDDD;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+  
+  .textosClasseB p2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    bottom: -20px;
+    right: 120px;
+  }
+
+  .textosClasseB p3 {
+    color: #F06066;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+  
+  .textosClasseB h2 {
+    color: #F06066;
+    margin-bottom: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+  }
+
+  .textosClasseB li {
+    color: #F06066;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+
+  .textosClasseB .li2 {
+    color: #34DDDD;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+
+/* navbar */
+
+.nav-link {
+    border-bottom: solid 1px transparent;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px #F06066;
+}
+
+/* container de videos */
+
+.containerVideos {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+    top: 10px;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: #343a40;
+    color: #F06066;
+    text-align: center;
+    border-top: 1px solid #34DDDD;
+}
+
+footer p {
+    margin-bottom: -5px;
+}
+
+/* footer icons */
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #F06066;
+    border: solid #F06066 5px;
+    border-radius: 50%;
+    transition: .5s;
+  }
+  
+  .fa:hover {
+    border-radius: 25%;
+    text-decoration: none;
+  }
+
+/* imagens */
+
+.imgSize3 {
+ width: 300px;
+}
+
+.img-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.img-rollers {
+    margin-top: 30px;
+}
+
+/* gerais */
+hr {
+    width: 1000px;
+    border-bottom: 1px solid #F06066;
+  }
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #F06066;
+}
