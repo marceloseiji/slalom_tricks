@@ -43,6 +43,12 @@ body {
     bottom: -20px;
     right: 120px;
   }
+
+  .textosClasseA p3 {
+    color: #F06066;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
   
   .textosClasseA h2 {
     color: #F06066;
@@ -98,6 +104,12 @@ body {
     font-size: 16px;
   }
 
+.imgTextos p1 {
+    color: #34DDDD;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
 /* navbar */
 
 .nav-link {
@@ -158,12 +170,20 @@ footer p {
  width: 300px;
 }
 
+.imgSize4 {
+    width: 400px;
+   }
+
 .img-margin-bottom {
     margin-bottom: 20px;
 }
 
 .img-rollers {
     margin-top: 30px;
+}
+
+.fig4 {
+    max-width: 400px;
 }
 
 /* gerais */
