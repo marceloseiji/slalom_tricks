@@ -68,6 +68,7 @@ body {
     color: #34DDDD;
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
+    padding-bottom: 20px;
   }
   
   .textosClasseB p2 {
@@ -90,6 +91,13 @@ body {
     margin-bottom: 50px;
     font-family: 'Cabin', sans-serif;
     font-size: 35px;
+  }
+
+    .textosClasseB h3 {
+    color: #F06066;
+    margin-bottom: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
   }
 
   .textosClasseB li {
@@ -125,6 +133,11 @@ body {
 
 .containerVideos {
     margin-bottom: 50px;
+}
+
+.containerVideosB {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 /* footer */
@@ -197,3 +210,19 @@ hr {
     text-decoration: none;
     background-color: #F06066;
 }
+
+/*Cards*/
+.card {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #F06066;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #F06066;
+}
+/*Cards*/
