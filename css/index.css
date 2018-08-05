@@ -15,6 +15,13 @@ body {
     color: #34DDDD;
 }
 
+/* title */
+
+.slalom-title {
+    position: relative;
+    bottom: 45px;
+}
+
 /* banner */
 
 #carouselBanner {
@@ -22,11 +29,31 @@ body {
 }
 
 /* div textos */
+
 .textosClasseA {
     padding: 20px;
     max-width: 1100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .textosClasseA h1 {
+    color: #F06066;
+    font-family: 'Cabin', sans-serif;
+    font-size:10vw;
+  }
+
+  .textosClasseA h2 {
+    color: #F06066;
+    margin-bottom: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+  }
+
+  .textosClasseA h3 {
+    color: #34DDDD;
+    font-family: 'Cabin', sans-serif;
+    font-size:2vw;
   }
   
   .textosClasseA p1 {
@@ -39,22 +66,12 @@ body {
     font-family: 'Cabin', sans-serif;
     font-size: 25px;
     font-weight: 500;
-    position: relative;
-    bottom: -20px;
-    right: 120px;
   }
 
   .textosClasseA p3 {
     color: #F06066;
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
-  }
-  
-  .textosClasseA h2 {
-    color: #F06066;
-    margin-bottom: 50px;
-    font-family: 'Cabin', sans-serif;
-    font-size: 35px;
   }
 
   .textosClasseB {
@@ -68,6 +85,7 @@ body {
     color: #34DDDD;
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
+    padding-bottom: 20px;
   }
   
   .textosClasseB p2 {
@@ -90,6 +108,13 @@ body {
     margin-bottom: 50px;
     font-family: 'Cabin', sans-serif;
     font-size: 35px;
+  }
+
+    .textosClasseB h3 {
+    color: #F06066;
+    margin-bottom: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
   }
 
   .textosClasseB li {
@@ -127,17 +152,23 @@ body {
     margin-bottom: 50px;
 }
 
+.containerVideosB {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 /* footer */
 
 footer {
-    top: 10px;
-    bottom: 10px;
-    width: 100%;
     padding: 10px 0px 10px 0px;
     background-color: #343a40;
     color: #F06066;
     text-align: center;
     border-top: 1px solid #34DDDD;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
 }
 
 footer p {
@@ -188,7 +219,7 @@ footer p {
 
 /* gerais */
 hr {
-    width: 1000px;
+    width: 55%;
     border-bottom: 1px solid #F06066;
   }
 
@@ -197,3 +228,37 @@ hr {
     text-decoration: none;
     background-color: #F06066;
 }
+
+/*Cards*/
+.card {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #fff;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.img-cards {
+    opacity: .5;
+    border-radius: 10px;
+}
+
+.card-video {
+    margin: 10px;
+}
+/*Cards*/
+
+/*accordion*/
+.accordion {
+    margin: 20px;
+}
+
+ .btn-manobras {
+     margin: 10px;
+ }
