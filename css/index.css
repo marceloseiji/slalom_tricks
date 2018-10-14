@@ -157,6 +157,15 @@ body {
     margin-top: 50px;
 }
 
+/* Tabelas */
+.tabela-traducao {
+    border: 1px solid grey;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 /* footer */
 
 footer {
@@ -261,4 +270,8 @@ hr {
 
  .btn-manobras {
      margin: 10px;
+ }
+
+ .div-manobras {
+     display: none;
  }
